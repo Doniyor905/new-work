@@ -1,0 +1,43 @@
+@import "../../theme.scss";
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    &__right {
+        display: flex;
+        align-items: center;
+
+        &-phone {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 50px;
+        }
+
+        &-link {
+            margin-left: 15px;
+            font-size: 15px;
+            color: $gray;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        &-btn {
+            width: 196px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: $gray;
+            font-weight: 600;
+            background-color: #FFBF00;
+        }
+
+        img {
+            margin-left: 10px;
+        }
+    }
+}
